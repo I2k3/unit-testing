@@ -1,0 +1,8 @@
+import{greet} from './greet';
+
+    describe('greet', () => {
+        it('Should include the name in the menssage', () =>{
+            expect (greet('mosh')).toBe ('welcome mosh')
+        })
+
+    });
